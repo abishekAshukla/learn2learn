@@ -14,7 +14,7 @@ const SubCourses = ({ imgUrl, text }) => {
 
 const Courses = () => {
   return (
-    <div id="courseSection" className="flex flex-col items-center">
+    <div id="courseSection" className="flex flex-col items-center  mt-16">
       <h1 className="text-center font-bold text-[#0E61CB] text-5xl">
         OUR COURSES
       </h1>

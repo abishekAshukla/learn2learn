@@ -33,14 +33,14 @@ const Header = () => {
         <div className="flex justify-center items-center">
           <div className="left sm:pl-20 mt-10 md:mt-0 text-center sm:text-left w-screen lg:w-[50%]">
             <h1 className="text-[40px] font-[500]">Welcome to</h1>
-            <h1 className="text-[60px] font-extrabold">Learn 2 Learn</h1>
-            <h1 className="text-[60px] font-extrabold">Academy</h1>
+            <h1 className="text-[70px] font-extrabold">Learn 2 Learn</h1>
+            <h1 className="text-[70px] font-extrabold">Academy</h1>
             <p className="italic">
               Individualized mentoring and undemitting encouragement to every
               student. 
             </p>
             <button className="bg-[#F15928] rounded-[30px] px-6 py-1 mt-5">
-              Explore Our Courses
+              <a href="#courseSection">Explore Our Courses</a>
             </button>
           </div>
           <div className="right hidden lg:flex justify-center items-center relative">

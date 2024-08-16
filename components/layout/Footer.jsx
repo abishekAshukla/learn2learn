@@ -7,7 +7,7 @@ const Footer = () => {
         alt=""
       />
       <div className="z-10 absolute flex flex-col items-center pt-12">
-        <div className="form text-[#0E61CB] bg-white border-2 border-[#0E61CB] w-1/3 min-w-[300px] rounded-2xl p-6 text-center">
+        <div className="form text-[#0E61CB] bg-white border-2 border-[#0E61CB] w-1/3 min-w-[340px] rounded-2xl p-6 text-center">
           <h1 className="font-bold text-2xl lg:text-3xl">FOR ANY QUERY</h1>
           <p className="mt-3 text-sm">
             For inquiries about our programs, admissions, or any other
