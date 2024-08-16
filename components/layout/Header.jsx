@@ -1,15 +1,32 @@
+'use client'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { useState } from 'react'
+import Sidebar2 from '../Sidebar2'
+
 const Header = () => {
+  const [sidebar, setSidebar] = useState(false)
+  const showSidebar = () => {
+    setSidebar(!sidebar)
+  }
   return (
-    <div className="relative text-white">
+    <div id="homeSection" className="relative text-white">
       <img className="h-screen w-full absolute" src="/header.png" alt="" />
+      <Sidebar2 sidebar={sidebar} showSidebar={showSidebar} />
       <div className="z-10 absolute">
+        <div className="sidebar"></div>
+        <div
+          className="flex md:hidden justify-end pr-5 pt-1 text-4xl"
+          onClick={showSidebar}
+        >
+          <GiHamburgerMenu />
+        </div>
         <div className="navbar hidden md:flex justify-end items-center w-screen h-20">
           <span className="px-5">HOME</span>
           <span className="px-5">COURSES</span>
           <span className="px-5">ABOUT US</span>
           <span className="px-5">GALLERY</span>
           <span className="px-5">BLOGS</span>
-          <button className="bg-[#F15928] rounded-[30px] px-8 py-1 mx-5">
+          <button className="bg-[#F15928] rounded-[30px] px-8 py-1 ml-5 mr-8">
             Sign Up
           </button>
         </div>

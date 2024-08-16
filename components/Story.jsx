@@ -1,6 +1,6 @@
 const Story = () => {
   return (
-    <div className="flex flex-col items-center mt-10">
+    <div id="aboutSection" className="flex flex-col items-center mt-10">
       <h1 className="text-center font-bold text-[#0E61CB] text-5xl">
         ABOUT US
       </h1>
